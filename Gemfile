@@ -75,3 +75,5 @@ gem 'jquery-rails'
 gem 'rails-ujs'
 gem "simple_form"
 gem 'devise'
+gem "paperclip", "~> 6.0.0"
+gem 'dotenv-rails', groups: [:development]

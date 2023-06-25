@@ -1,6 +1,5 @@
 <p style="color: green"><%= notice %></p>
 <div class="row">
-  <%# <%= render @books %>
   <% @books.each do |book| %>
     <%= render partial: 'bookIn', locals: { book: book } %>
   <% end %>
